@@ -1,26 +1,3 @@
 <<<<<<< HEAD
 config:
   info: Hello World!
->>>>>>> a78d4eba592c244781ff9089401aa4abc74a660d
-server:
-  port: 3344
-
-spring:
-  application:
-    name: cloud-config-center
-  cloud:
-    config:
-      server:
-        git:  # git地址
-          uri: git@github.com:JiaBeibei-ux/springcloud-config.git
-          #搜索目录
-          search-paths:
-            - springcloud-config
-      #读取主分支
-      label: master
-
-eureka:
-  client:
-    service-url:
-      defaultZone: http://eureka7001.com:7001/eureka
-      #defaultZone: http://eureka7001.com:7001/eureka
