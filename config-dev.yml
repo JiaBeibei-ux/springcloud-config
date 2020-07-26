@@ -1,5 +1,7 @@
+<<<<<<< HEAD
 config:
-  info: Hello World!      
+  info: Hello World!
+>>>>>>> a78d4eba592c244781ff9089401aa4abc74a660d
 server:
   port: 3344
 
